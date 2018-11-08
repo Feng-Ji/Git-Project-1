@@ -1,0 +1,30 @@
+1. I named the remote repository Git-Project-1.
+2. I created the folder on the M drive Git Repository.
+3. I named the html file Chinta_Animal.html
+4. $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Chinta_Animal 
+ 5.$ git commit -m "Chinta_Animal.html was created"
+[master 9eeb107] Chinta_Animal.html was created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Chinta_Animal.html
+
+6.$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 5), reused 5 (delta 2), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+From https://github.com/Feng-Ji/Git-Project-1
+   9eeb107..851b433  master     -> origin/master
+Updating 9eeb107..851b433
+Fast-forward
+ Chinta_Animal.html | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+7. It went really smoothly and I didn't have any problems. 
